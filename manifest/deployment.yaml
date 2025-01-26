@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flaskapp
-        image: thasir/argocd-python:v1.0
+        image: thasir/flask-app:1
         ports:
         - containerPort: 5000
 ---

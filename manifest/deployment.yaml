@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flaskapp
-        image: thasir/flask-app:7
+        image: thasir/flask-app:8
         ports:
         - containerPort: 5000
 ---
